@@ -8,17 +8,17 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tools.Browsers;
 
-public class PriceTC {
+public class CartTC {
 
     private WebDriver driver;
 
     private SauceBO sauceBO;
 
     @DataProvider
-    public Object[][] priceDP() {
+    public Object[][] loginDP() {
         return new Object[][]{
-                {"Sauce Labs Backpack", "$29.99"},
-                {"Sauce Labs Onesie", "$8.99"}
+                {"Sauce Labs Backpack"},
+                {"Test.allTheThings() T-Shirt (Red)"}
         };
     }
 
@@ -29,13 +29,15 @@ public class PriceTC {
     }
 
 
-    @Test(dataProvider = "priceDP")
-    public void test(String itemName, String price) {
-        Assert.assertEquals(sauceBO
+    @Test(dataProvider = "loginDP")
+    public void test(String itemName) {
+        Assert.assertTrue(sauceBO
                 .openLoginPage()
                 .login("standard_user", "secret_sauce")
                 .clickItem(itemName)
-                .getPrice(), price);
+                .addItemToCart()
+                .clickCartButton()
+                .verifyCartItem(itemName));
     }
 
     @AfterClass
