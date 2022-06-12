@@ -1,6 +1,5 @@
 package api;
 
-import model.CreateUserResponse;
 import model.UpdateUserResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;

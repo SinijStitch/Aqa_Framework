@@ -30,4 +30,19 @@ public class ReqresService {
 
     }
 
+    public static Response register(String email, String password) {
+        return given()
+                .when()
+                .contentType("application/json")
+                .body("{\"email\":\"%s\", \"password\":\"%s\"}".formatted(email, password))
+                .post("https://reqres.in/api/register");
+    }
+
+    public static Response login(String email, String password) {
+        return given()
+                .when()
+                .contentType("application/json")
+                .body("{\"email\":\"%s\", \"password\":\"%s\"}".formatted(email, password))
+                .post("https://reqres.in/api/login");
+    }
 }
