@@ -1,5 +1,6 @@
 package po;
 
+import decorator.Button;
 import decorator.CustomFieldDecorator;
 import decorator.Div;
 import org.openqa.selenium.By;
@@ -19,6 +20,9 @@ public class CartPage {
 
     Div cartItem;
 
+    @FindBy(id = "checkout")
+    Button checkoutButton;
+
 
     public CartPage(WebDriver driver) {
         this.driver = driver;
@@ -34,5 +38,10 @@ public class CartPage {
             return false;
         }
         return cartItem.getText().equals(itemName);
+    }
+
+    public void clickCheckoutButton() {
+        checkoutButton.waitForMeClickable(new WebDriverWait(driver, Duration.ofSeconds(3)));
+        checkoutButton.clickMe();
     }
 }

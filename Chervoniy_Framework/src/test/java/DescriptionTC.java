@@ -8,17 +8,17 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tools.Browsers;
 
-public class CartTC {
+public class DescriptionTC {
 
     private WebDriver driver;
 
     private SauceBO sauceBO;
 
     @DataProvider
-    public Object[][] cartDP() {
+    public Object[][] descriptionDP() {
         return new Object[][]{
-                {"Sauce Labs Backpack"},
-                {"Test.allTheThings() T-Shirt (Red)"}
+                {"Sauce Labs Backpack", "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection."},
+                {"Sauce Labs Bike Light", "A red light isn't the desired state in testing but it sure helps when riding your bike at night. Water-resistant with 3 lighting modes, 1 AAAA battery included."}
         };
     }
 
@@ -29,15 +29,13 @@ public class CartTC {
     }
 
 
-    @Test(dataProvider = "cartDP")
-    public void test(String itemName) {
-        Assert.assertTrue(sauceBO
+    @Test(dataProvider = "descriptionDP")
+    public void test(String itemName, String description) {
+        Assert.assertEquals(sauceBO
                 .openLoginPage()
                 .login("standard_user", "secret_sauce")
                 .clickItem(itemName)
-                .addItemToCart()
-                .clickCartButton()
-                .verifyCartItem(itemName));
+                .getDescription(), description);
     }
 
     @AfterClass

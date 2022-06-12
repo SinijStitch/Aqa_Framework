@@ -24,6 +24,9 @@ public class ItemPage {
     @FindBy(className = "shopping_cart_link")
     Button cartButton;
 
+    @FindBy(xpath = "//div[contains(@class, \"inventory_details_desc\") and contains(@class, \"large_size\")]")
+    Div descriptionDiv;
+
     public ItemPage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(new CustomFieldDecorator(driver), this);
@@ -41,6 +44,11 @@ public class ItemPage {
 
     public void clickCartButton() {
         cartButton.clickMe();
+    }
+
+    public String getDescription() {
+        descriptionDiv.waitForMeVisible(new WebDriverWait(driver, Duration.ofSeconds(3)));
+        return descriptionDiv.getText();
     }
 
 

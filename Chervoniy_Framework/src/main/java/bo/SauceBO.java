@@ -1,10 +1,7 @@
 package bo;
 
 import org.openqa.selenium.WebDriver;
-import po.CartPage;
-import po.ItemPage;
-import po.LoginPage;
-import po.MainPage;
+import po.*;
 
 public class SauceBO {
 
@@ -18,12 +15,15 @@ public class SauceBO {
 
     private final CartPage cartPage;
 
+    private final CheckoutPage checkoutPage;
+
     public SauceBO(WebDriver driver) {
         this.driver = driver;
         loginPage = new LoginPage(driver);
         mainPage = new MainPage(driver);
         itemPage = new ItemPage(driver);
         cartPage = new CartPage(driver);
+        checkoutPage = new CheckoutPage(driver);
     }
 
     public SauceBO openLoginPage() {
@@ -63,5 +63,23 @@ public class SauceBO {
 
     public boolean verifyCartItem(String itemName) {
         return cartPage.verifyItem(itemName);
+    }
+
+    public SauceBO makeOrder(String firstName, String lastName, String postalCode) {
+        cartPage.clickCheckoutButton();
+        checkoutPage.typeFirstName(firstName);
+        checkoutPage.typeLastName(lastName);
+        checkoutPage.typePostalCode(postalCode);
+        checkoutPage.pressSubmit();
+        checkoutPage.pressFinish();
+        return this;
+    }
+
+    public boolean verifyOrder() {
+        return checkoutPage.verifyOrder();
+    }
+
+    public String getDescription() {
+        return itemPage.getDescription();
     }
 }

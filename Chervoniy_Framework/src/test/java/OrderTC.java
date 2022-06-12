@@ -8,19 +8,11 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tools.Browsers;
 
-public class CartTC {
+public class OrderTC {
 
     private WebDriver driver;
 
     private SauceBO sauceBO;
-
-    @DataProvider
-    public Object[][] cartDP() {
-        return new Object[][]{
-                {"Sauce Labs Backpack"},
-                {"Test.allTheThings() T-Shirt (Red)"}
-        };
-    }
 
     @BeforeClass
     public void init() {
@@ -29,15 +21,16 @@ public class CartTC {
     }
 
 
-    @Test(dataProvider = "cartDP")
-    public void test(String itemName) {
+    @Test
+    public void test() {
         Assert.assertTrue(sauceBO
                 .openLoginPage()
                 .login("standard_user", "secret_sauce")
-                .clickItem(itemName)
+                .clickItem("Sauce Labs Fleece Jacket")
                 .addItemToCart()
                 .clickCartButton()
-                .verifyCartItem(itemName));
+                .makeOrder("oleg", "chervoniy", "80100")
+                .verifyOrder());
     }
 
     @AfterClass

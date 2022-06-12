@@ -2,7 +2,6 @@ package po;
 
 import decorator.Button;
 import decorator.CustomFieldDecorator;
-import decorator.Element;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -40,6 +39,11 @@ public class MainPage {
         itemNameButton.waitForMeClickable(new WebDriverWait(driver, Duration.ofSeconds(3)));
         itemNameButton.scrollToMe(driver);
         itemNameButton.clickMe();
+    }
+
+    public void clickCartButton() {
+        cartButton.waitForMeClickable(new WebDriverWait(driver, Duration.ofSeconds(3)));
+        cartButton.clickMe();
     }
 
 }
