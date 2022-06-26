@@ -1,0 +1,11 @@
+<suite name="Suite1" verbose="1">
+    <test name="Test" parallel="classes" thread-count="5">
+        <classes>
+            <class name="ui.LoginTC"/>
+            <class name="ui.PriceTC"/>
+            <class name="ui.DescriptionTC"/>
+            <class name="ui.CartTC"/>
+            <class name="ui.OrderTC"/>
+        </classes>
+    </test>
+</suite>

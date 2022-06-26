@@ -163,3 +163,675 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1655059326129,213,PostLogin,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: java.net.SocketException: Socket closed,LoginThreadGroup 2-1,text,false,,3451,0,1,4,https://demo.opencart.com/index.php,0,0,0
 1655059326171,172,PostAddToCart,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: java.net.SocketException: Socket closed,AddToCartThreadGroup 3-1,text,false,,3451,0,1,3,https://demo.opencart.com/index.php,0,0,0
 1655059326161,183,PostAddToWishlist,Non HTTP response code: javax.net.ssl.SSLException,Non HTTP response message: java.net.SocketException: Socket closed,WishlistThreadGroup 4-1,text,false,,3451,0,1,1,https://demo.opencart.com/index.php,0,0,0
+1656248275896,1083,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,1075,0,938
+1656248275896,1244,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,1232,0,938
+1656248275896,1250,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,1238,0,938
+1656248276980,213,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,202,0,0
+1656248275896,1333,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,1262,0,963
+1656248277229,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248277141,206,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,195,0,0
+1656248277146,247,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,236,0,0
+1656248277198,237,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,225,0,0
+1656248277230,262,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,191,0,0
+1656248277348,157,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,145,0,0
+1656248277394,161,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26308,122,1,4,https://demo.opencart.com/,150,0,0
+1656248277435,171,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,161,0,0
+1656248277493,265,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,257,0,0
+1656248277758,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248277607,174,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,169,0,0
+1656248277555,235,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,217,0,0
+1656248277758,178,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,168,0,0
+1656248277505,476,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,242,0,0
+1656248277782,205,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26308,344,1,4,https://demo.opencart.com/index.php,194,0,0
+1656248277791,197,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,188,0,0
+1656248277936,162,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,152,0,0
+1656248278099,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248277989,252,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248277988,255,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,246,0,0
+1656248278100,157,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,148,0,0
+1656248277982,446,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,207,0,0
+1656248278244,192,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,186,0,0
+1656248278243,214,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,206,0,0
+1656248278258,200,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,191,0,0
+1656248278458,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248278436,257,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248278429,303,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,291,0,0
+1656248278457,288,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,278,0,0
+1656248278458,288,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,278,0,0
+1656248278694,186,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,183,0,0
+1656248278746,248,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,242,0,0
+1656248278994,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248278733,268,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,248,0,0
+1656248278881,140,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,140,0,0
+1656248278746,277,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,256,0,0
+1656248279001,213,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,195,0,0
+1656248278995,263,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,257,0,0
+1656248279022,254,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248279023,286,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,271,0,0
+1656248279215,176,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,169,0,0
+1656248279259,226,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,122,1,4,https://demo.opencart.com/,215,0,0
+1656248279485,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248279277,228,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26308,122,1,4,https://demo.opencart.com/,223,0,0
+1656248279310,229,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,217,0,0
+1656248279392,153,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,152,0,0
+1656248279505,205,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,204,0,0
+1656248279486,228,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,223,0,0
+1656248279546,204,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,204,0,0
+1656248279540,222,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,211,0,0
+1656248279711,276,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,272,0,0
+1656248279714,287,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,281,0,0
+1656248280001,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248279751,267,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26308,412,1,4,https://demo.opencart.com/index.php,261,0,0
+1656248279763,269,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,259,0,0
+1656248279989,220,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,216,0,0
+1656248280019,248,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,242,0,0
+1656248280033,249,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,238,0,0
+1656248280003,279,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,273,0,0
+1656248280210,117,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,117,0,0
+1656248280267,184,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,181,0,0
+1656248280282,278,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,273,0,0
+1656248280560,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248280282,286,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26308,122,1,4,https://demo.opencart.com/,269,0,0
+1656248280328,245,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,241,0,0
+1656248280452,162,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,156,0,0
+1656248280560,251,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,247,0,0
+1656248280574,272,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,268,0,0
+1656248280615,238,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,235,0,0
+1656248280568,285,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,276,0,0
+1656248280813,183,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,178,0,0
+1656248280996,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248280848,226,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,226,0,0
+1656248280854,233,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,231,0,0
+1656248280854,256,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,248,0,0
+1656248280997,152,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,147,0,0
+1656248281075,187,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26308,338,1,4,https://demo.opencart.com/index.php,178,0,0
+1656248281088,251,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,245,0,0
+1656248281149,242,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,236,0,0
+1656248281391,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248281111,281,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,274,0,0
+1656248281262,166,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,161,0,0
+1656248281339,149,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,143,0,0
+1656248281392,232,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,227,0,0
+1656248281394,249,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,239,0,0
+1656248281428,214,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,214,0,0
+1656248281488,161,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22412,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,158,0,0
+1656248281625,192,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,187,0,0
+1656248281817,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248281643,254,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,248,0,0
+1656248281649,253,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,248,0,0
+1656248281643,261,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248281817,146,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,141,0,0
+1656248281898,271,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,265,0,0
+1656248281904,272,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,264,0,0
+1656248281902,275,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,270,0,0
+1656248281963,215,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,213,0,0
+1656248282179,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248282178,241,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,239,0,0
+1656248282170,249,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,248,0,0
+1656248282180,254,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248282177,264,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,256,0,0
+1656248282420,272,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,267,0,0
+1656248282434,259,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26304,122,1,4,https://demo.opencart.com/,253,0,0
+1656248282693,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248282441,265,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,257,0,0
+1656248282420,287,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,282,0,0
+1656248282693,238,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,233,0,0
+1656248282693,271,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,265,0,0
+1656248282707,258,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,253,0,0
+1656248282707,261,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,288,1,4,https://demo.opencart.com/index.php,248,0,0
+1656248282931,170,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,169,0,0
+1656248282966,213,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,210,0,0
+1656248282964,259,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,122,1,4,https://demo.opencart.com/,249,0,0
+1656248283223,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248282970,261,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,255,0,0
+1656248283101,148,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,143,0,0
+1656248283179,191,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,186,0,0
+1656248283223,248,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,242,0,0
+1656248283232,243,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,235,0,0
+1656248283250,234,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,228,0,0
+1656248283370,149,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,143,0,0
+1656248283484,214,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,213,0,0
+1656248283475,253,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,245,0,0
+1656248283472,256,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,250,0,0
+1656248283729,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248283520,211,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,210,0,0
+1656248283700,257,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248283732,257,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,250,0,0
+1656248283729,261,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,256,0,0
+1656248283729,266,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,259,0,0
+1656248283957,203,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,197,0,0
+1656248283990,242,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,237,0,0
+1656248284232,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248283989,247,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,242,0,0
+1656248283995,243,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,237,0,0
+1656248284160,112,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,111,0,0
+1656248284236,236,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,233,0,0
+1656248284233,262,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,256,0,0
+1656248284238,267,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,259,0,0
+1656248284273,237,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,232,0,0
+1656248284473,211,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,205,0,0
+1656248284495,246,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,240,0,0
+1656248284742,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248284511,243,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,238,0,0
+1656248284506,250,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,243,0,0
+1656248284684,128,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,120,0,0
+1656248284754,211,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,211,0,0
+1656248284742,255,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,250,0,0
+1656248284813,196,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,192,0,0
+1656248284756,267,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,260,0,0
+1656248284966,189,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,185,0,0
+1656248284998,205,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,200,0,0
+1656248285203,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248285010,246,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,241,0,0
+1656248285024,236,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,231,0,0
+1656248285156,162,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,157,0,0
+1656248285204,182,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,177,0,0
+1656248285257,231,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,226,0,0
+1656248285261,231,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,224,0,0
+1656248285318,182,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,182,0,0
+1656248285386,146,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,141,0,0
+1656248285533,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248285489,199,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,196,0,0
+1656248285492,249,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,242,0,0
+1656248285501,246,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,241,0,0
+1656248285533,221,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,216,0,0
+1656248285689,136,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,130,0,0
+1656248285747,266,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,262,0,0
+1656248285754,261,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,257,0,0
+1656248286015,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248285741,278,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,271,0,0
+1656248285825,222,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,215,0,0
+1656248286014,222,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,222,0,0
+1656248286016,259,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248286047,233,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,230,0,0
+1656248286020,263,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,257,0,0
+1656248286237,184,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,179,0,0
+1656248286276,216,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,211,0,0
+1656248286493,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248286280,258,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,253,0,0
+1656248286284,256,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248286423,136,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,132,0,0
+1656248286493,202,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,198,0,0
+1656248286540,249,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,243,0,0
+1656248286538,258,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248286560,236,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,235,0,0
+1656248286696,134,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,122,1,4,https://demo.opencart.com/,124,0,0
+1656248286830,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248286796,246,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22412,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,235,0,0
+1656248286789,265,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,259,0,0
+1656248286796,264,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,261,0,0
+1656248286831,238,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,233,0,0
+1656248287043,214,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,209,0,0
+1656248287060,255,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,249,0,0
+1656248287069,250,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,246,0,0
+1656248287320,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248287054,274,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,267,0,0
+1656248287258,123,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,118,0,0
+1656248287315,205,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,204,0,0
+1656248287320,245,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,238,0,0
+1656248287328,242,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,237,0,0
+1656248287382,191,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,189,0,0
+1656248287520,158,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,154,0,0
+1656248287565,258,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,253,0,0
+1656248287824,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248287571,257,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248287574,255,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,250,0,0
+1656248287678,163,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26308,122,1,4,https://demo.opencart.com/,156,0,0
+1656248287841,223,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,223,0,0
+1656248287829,257,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26308,122,1,4,https://demo.opencart.com/,247,0,0
+1656248287829,261,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248287825,272,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,303,1,4,https://demo.opencart.com/index.php,262,0,0
+1656248288065,261,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,257,0,0
+1656248288086,239,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,237,0,0
+1656248288090,254,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,249,0,0
+1656248288098,252,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,247,0,0
+1656248288350,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248288329,256,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248288327,269,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,264,0,0
+1656248288351,261,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,257,0,0
+1656248288585,154,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,154,0,0
+1656248288596,205,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,200,0,0
+1656248288613,189,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,183,0,0
+1656248288803,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248288344,502,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,267,0,0
+1656248288740,126,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,121,0,0
+1656248288804,203,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,197,0,0
+1656248288802,217,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,214,0,0
+1656248288848,204,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,198,0,0
+1656248288867,209,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,204,0,0
+1656248289007,224,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,218,0,0
+1656248289231,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248289019,248,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248289052,228,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,288,1,4,https://demo.opencart.com/index.php,217,0,0
+1656248289076,205,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,205,0,0
+1656248289232,210,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,205,0,0
+1656248289281,238,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,234,0,0
+1656248289281,238,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,232,0,0
+1656248289267,253,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,249,0,0
+1656248289443,129,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,123,0,0
+1656248289573,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248289521,227,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,224,0,0
+1656248289519,256,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26308,122,1,4,https://demo.opencart.com/,247,0,0
+1656248289519,269,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,263,0,0
+1656248289573,215,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,209,0,0
+1656248289748,210,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26308,412,1,4,https://demo.opencart.com/index.php,200,0,0
+1656248289776,218,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,217,0,0
+1656248289788,230,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,225,0,0
+1656248289788,230,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,225,0,0
+1656248290019,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248289958,205,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,200,0,0
+1656248289995,231,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,225,0,0
+1656248290018,249,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248290019,248,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248290164,122,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,120,0,0
+1656248290227,180,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,175,0,0
+1656248290268,243,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,236,0,0
+1656248290511,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248290287,233,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26308,412,1,4,https://demo.opencart.com/index.php,228,0,0
+1656248290267,253,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,249,0,0
+1656248290408,125,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,124,0,0
+1656248290512,259,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,253,0,0
+1656248290520,256,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248290520,259,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,253,0,0
+1656248290534,255,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,241,0,0
+1656248290771,236,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,231,0,0
+1656248291009,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248290776,234,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22406,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,231,0,0
+1656248290790,239,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,234,0,0
+1656248290780,255,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,249,0,0
+1656248291009,241,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,235,0,0
+1656248291031,226,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,226,0,0
+1656248291011,263,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248291036,240,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,234,0,0
+1656248291250,210,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,205,0,0
+1656248291461,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248291258,256,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,250,0,0
+1656248291274,244,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,240,0,0
+1656248291276,247,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,241,0,0
+1656248291462,122,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,117,0,0
+1656248291518,234,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22413,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,225,0,0
+1656248291514,245,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,239,0,0
+1656248291523,244,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,287,1,4,https://demo.opencart.com/index.php,233,0,0
+1656248291585,189,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26309,122,1,4,https://demo.opencart.com/,180,0,0
+1656248291774,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248291759,238,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,237,0,0
+1656248291752,246,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,241,0,0
+1656248291774,240,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,234,0,0
+1656248291767,248,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,242,0,0
+1656248291998,245,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,240,0,0
+1656248292014,264,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,248,0,0
+1656248292278,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248292015,266,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248291998,283,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,283,0,0
+1656248292244,145,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,142,0,0
+1656248292278,260,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248292282,260,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,255,0,0
+1656248292282,264,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,259,0,0
+1656248292389,167,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,162,0,0
+1656248292547,181,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,181,0,0
+1656248292538,223,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,217,0,0
+1656248292761,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248292542,226,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,287,1,4,https://demo.opencart.com/index.php,216,0,0
+1656248292556,242,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,236,0,0
+1656248292729,175,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,170,0,0
+1656248292762,221,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,216,0,0
+1656248292769,226,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,221,0,0
+1656248292799,218,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22413,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,210,0,0
+1656248292905,146,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,136,0,0
+1656248292984,210,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,205,0,0
+1656248293195,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248292995,229,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,223,0,0
+1656248293018,213,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26308,412,1,4,https://demo.opencart.com/index.php,204,0,0
+1656248293051,202,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,201,0,0
+1656248293196,182,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,178,0,0
+1656248293225,223,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,218,0,0
+1656248293232,257,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26308,122,1,4,https://demo.opencart.com/,248,0,0
+1656248293254,280,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,275,0,0
+1656248293379,188,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,184,0,0
+1656248293567,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248293449,138,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,134,0,0
+1656248293489,198,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,196,0,0
+1656248293535,212,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,207,0,0
+1656248293589,231,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,226,0,0
+1656248293568,273,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,268,0,0
+1656248293688,163,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,158,0,0
+1656248293747,125,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,125,0,0
+1656248293821,183,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,178,0,0
+1656248293841,243,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,237,0,0
+1656248294084,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248293851,234,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,228,0,0
+1656248293873,260,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,256,0,0
+1656248294004,149,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,143,0,0
+1656248294085,178,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,175,0,0
+1656248294084,219,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,214,0,0
+1656248294134,202,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26308,122,1,4,https://demo.opencart.com/,193,0,0
+1656248294153,216,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,211,0,0
+1656248294264,178,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,173,0,0
+1656248294303,209,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,204,0,0
+1656248294513,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248294336,205,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,204,0,0
+1656248294370,204,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,199,0,0
+1656248294443,166,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,161,0,0
+1656248294513,183,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,177,0,0
+1656248294541,195,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,190,0,0
+1656248294574,218,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,212,0,0
+1656248294609,190,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,188,0,0
+1656248294696,182,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,176,0,0
+1656248294878,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248294737,189,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,184,0,0
+1656248294794,203,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,197,0,0
+1656248294800,209,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,205,0,0
+1656248294926,140,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18431,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,135,0,0
+1656248294879,195,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,191,0,0
+1656248294997,211,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,203,0,0
+1656248295010,206,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,201,0,0
+1656248295067,192,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26308,344,1,4,https://demo.opencart.com/index.php,184,0,0
+1656248295075,198,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,192,0,0
+1656248295273,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248295216,182,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,179,0,0
+1656248295208,220,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,214,0,0
+1656248295260,217,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,212,0,0
+1656248295274,213,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,208,0,0
+1656248295398,173,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,168,0,0
+1656248295428,212,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,207,0,0
+1656248295478,196,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,195,0,0
+1656248295488,216,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,210,0,0
+1656248295704,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248295571,164,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,159,0,0
+1656248295640,192,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,187,0,0
+1656248295675,218,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,212,0,0
+1656248295704,249,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248295735,234,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,233,0,0
+1656248295833,169,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,164,0,0
+1656248295893,137,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26308,122,1,4,https://demo.opencart.com/,127,0,0
+1656248295968,241,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,235,0,0
+1656248296209,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248295969,244,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,239,0,0
+1656248296030,198,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,197,0,0
+1656248296002,228,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,224,0,0
+1656248296210,271,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,265,0,0
+1656248296213,271,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,267,0,0
+1656248296230,258,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248296230,258,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248296485,244,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,241,0,0
+1656248296482,266,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,260,0,0
+1656248296748,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248296489,267,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,262,0,0
+1656248296488,270,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,265,0,0
+1656248296756,226,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,223,0,0
+1656248296729,259,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248296748,244,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,239,0,0
+1656248296758,236,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,231,0,0
+1656248296983,249,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248296995,256,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248296992,261,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,256,0,0
+1656248297253,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248296988,272,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,267,0,0
+1656248297261,237,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,234,0,0
+1656248297233,270,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,264,0,0
+1656248297253,260,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,255,0,0
+1656248297251,277,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,288,1,4,https://demo.opencart.com/index.php,259,0,0
+1656248297504,209,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,208,0,0
+1656248297498,264,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248297514,249,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,244,0,0
+1656248297763,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248297529,236,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26312,122,1,4,https://demo.opencart.com/,226,0,0
+1656248297713,136,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26308,339,1,4,https://demo.opencart.com/index.php,127,0,0
+1656248297763,256,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,250,0,0
+1656248297764,259,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,253,0,0
+1656248297765,263,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248297851,188,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,183,0,0
+1656248298019,242,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,239,0,0
+1656248298040,223,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,222,0,0
+1656248298029,247,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,241,0,0
+1656248298023,257,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248298280,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248298264,274,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26308,338,1,4,https://demo.opencart.com/index.php,266,0,0
+1656248298280,259,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,255,0,0
+1656248298276,267,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,261,0,0
+1656248298262,291,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,286,0,0
+1656248298539,272,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,267,0,0
+1656248298543,270,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,264,0,0
+1656248298540,280,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,275,0,0
+1656248298820,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248298554,275,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,269,0,0
+1656248298812,234,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,233,0,0
+1656248298829,221,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,219,0,0
+1656248298813,251,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,246,0,0
+1656248298820,248,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,242,0,0
+1656248299046,230,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,225,0,0
+1656248299068,245,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,239,0,0
+1656248299313,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248299065,248,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,243,0,0
+1656248299051,282,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,277,0,0
+1656248299277,178,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,173,0,0
+1656248299313,229,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,224,0,0
+1656248299333,243,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,236,0,0
+1656248299313,263,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,256,0,0
+1656248299455,135,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,134,0,0
+1656248299543,192,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26309,122,1,4,https://demo.opencart.com/,182,0,0
+1656248299735,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248299576,225,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,221,0,0
+1656248299576,231,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,225,0,0
+1656248299590,225,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,220,0,0
+1656248299735,153,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,147,0,0
+1656248299816,222,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,217,0,0
+1656248299801,238,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,233,0,0
+1656248299807,235,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,228,0,0
+1656248299889,201,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,195,0,0
+1656248300090,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248300038,192,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,191,0,0
+1656248300042,221,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,215,0,0
+1656248300039,224,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,219,0,0
+1656248300091,208,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,202,0,0
+1656248300230,157,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,152,0,0
+1656248300264,202,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,200,0,0
+1656248300264,241,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,236,0,0
+1656248300300,229,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,223,0,0
+1656248300530,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248300388,162,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,156,0,0
+1656248300466,155,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,150,0,0
+1656248300506,185,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26308,122,1,4,https://demo.opencart.com/,175,0,0
+1656248300550,200,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,199,0,0
+1656248300530,249,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,243,0,0
+1656248300621,210,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,204,0,0
+1656248300691,193,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,187,0,0
+1656248300751,217,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,212,0,0
+1656248300779,227,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,220,0,0
+1656248301007,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248300831,194,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22413,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,186,0,0
+1656248300885,152,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26308,122,1,4,https://demo.opencart.com/,142,0,0
+1656248300969,133,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,128,0,0
+1656248301007,207,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,303,1,4,https://demo.opencart.com/index.php,196,0,0
+1656248301027,245,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,241,0,0
+1656248301038,241,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,287,1,4,https://demo.opencart.com/index.php,231,0,0
+1656248301102,181,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,181,0,0
+1656248301214,131,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,126,0,0
+1656248301345,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248301273,221,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,216,0,0
+1656248301283,237,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,232,0,0
+1656248301279,274,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,270,0,0
+1656248301346,211,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,205,0,0
+1656248301494,169,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,167,0,0
+1656248301522,196,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26308,122,1,4,https://demo.opencart.com/,187,0,0
+1656248301557,265,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,259,0,0
+1656248301823,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248301554,279,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,274,0,0
+1656248301664,192,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,186,0,0
+1656248301719,140,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,139,0,0
+1656248301824,269,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,263,0,0
+1656248301836,264,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,258,0,0
+1656248301861,254,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248301856,262,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,257,0,0
+1656248302118,237,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,233,0,0
+1656248302094,265,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,258,0,0
+1656248302360,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248302100,265,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,260,0,0
+1656248302115,253,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,248,0,0
+1656248302368,234,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,233,0,0
+1656248302361,259,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248302365,262,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,257,0,0
+1656248302356,271,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,266,0,0
+1656248302602,228,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,223,0,0
+1656248302627,224,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,219,0,0
+1656248302621,231,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,226,0,0
+1656248302853,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248302627,261,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,256,0,0
+1656248302831,204,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,199,0,0
+1656248302853,229,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26308,122,1,4,https://demo.opencart.com/,218,0,0
+1656248302889,212,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,211,0,0
+1656248302854,259,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,253,0,0
+1656248303035,107,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,106,0,0
+1656248303082,198,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,193,0,0
+1656248303101,248,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,242,0,0
+1656248303114,238,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,233,0,0
+1656248303353,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248303142,226,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,220,0,0
+1656248303283,124,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,118,0,0
+1656248303353,253,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,248,0,0
+1656248303350,256,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248303372,245,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,239,0,0
+1656248303407,218,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,213,0,0
+1656248303617,209,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,209,0,0
+1656248303607,240,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,237,0,0
+1656248303607,252,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,246,0,0
+1656248303859,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248303625,235,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,231,0,0
+1656248303827,192,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,187,0,0
+1656248303848,257,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248303860,265,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248303860,273,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,268,0,0
+1656248304019,150,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,144,0,0
+1656248304105,185,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,180,0,0
+1656248304133,227,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,220,0,0
+1656248304169,191,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,190,0,0
+1656248304125,237,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,232,0,0
+1656248304363,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248304290,127,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,124,0,0
+1656248304361,271,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,266,0,0
+1656248304363,269,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,263,0,0
+1656248304361,274,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,269,0,0
+1656248304417,220,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,216,0,0
+1656248304632,272,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,266,0,0
+1656248304633,271,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,266,0,0
+1656248304904,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248304635,270,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,265,0,0
+1656248304638,285,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,279,0,0
+1656248304905,223,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,221,0,0
+1656248304923,219,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,216,0,0
+1656248304904,252,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,287,1,4,https://demo.opencart.com/index.php,248,0,0
+1656248304904,253,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,248,0,0
+1656248305128,219,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26308,339,1,4,https://demo.opencart.com/index.php,209,0,0
+1656248305156,252,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,246,0,0
+1656248305158,251,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,247,0,0
+1656248305409,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248305142,283,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,278,0,0
+1656248305348,120,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,114,0,0
+1656248305408,249,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26308,287,1,4,https://demo.opencart.com/index.php,240,0,0
+1656248305409,251,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,245,0,0
+1656248305425,236,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,231,0,0
+1656248305468,200,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,199,0,0
+1656248305661,229,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22413,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,222,0,0
+1656248305657,259,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,253,0,0
+1656248305668,256,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248305660,271,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,266,0,0
+1656248305932,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248305891,188,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,183,0,0
+1656248305924,230,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,226,0,0
+1656248305916,241,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,236,0,0
+1656248305932,253,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,247,0,0
+1656248306080,129,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,124,0,0
+1656248306159,233,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,228,0,0
+1656248306154,239,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,238,0,0
+1656248306209,198,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,194,0,0
+1656248306185,231,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,225,0,0
+1656248306416,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248306393,257,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,252,0,0
+1656248306392,262,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248306408,248,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26308,412,1,4,https://demo.opencart.com/index.php,240,0,0
+1656248306416,264,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248306651,258,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248306654,256,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248306656,256,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,250,0,0
+1656248306680,233,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,229,0,0
+1656248306913,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248306909,245,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,244,0,0
+1656248306912,252,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,248,0,0
+1656248306914,260,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248306910,264,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,258,0,0
+1656248307154,220,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,215,0,0
+1656248307174,247,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,240,0,0
+1656248307164,260,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,254,0,0
+1656248307174,250,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,244,0,0
+1656248307424,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248307375,127,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,122,0,0
+1656248307421,242,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,237,0,0
+1656248307424,249,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,303,1,4,https://demo.opencart.com/index.php,238,0,0
+1656248307502,176,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,175,0,0
+1656248307424,256,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,251,0,0
+1656248307665,246,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,241,0,0
+1656248307680,242,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,240,0,0
+1656248307678,247,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,242,0,0
+1656248307673,255,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,250,0,0
+1656248307929,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248307911,203,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,197,0,0
+1656248307925,254,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,249,0,0
+1656248307923,256,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,251,0,0
+1656248307929,251,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,246,0,0
+1656248308114,118,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,114,0,0
+1656248308179,227,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,226,0,0
+1656248308180,245,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,240,0,0
+1656248308426,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248308179,259,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,254,0,0
+1656248308232,206,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,201,0,0
+1656248308406,232,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,227,0,0
+1656248308438,229,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,226,0,0
+1656248308426,253,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,247,0,0
+1656248308439,240,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,235,0,0
+1656248308638,194,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,188,0,0
+1656248308679,242,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,236,0,0
+1656248308921,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248308667,255,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248308679,245,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,240,0,0
+1656248308832,117,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,116,0,0
+1656248308922,264,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26308,122,1,4,https://demo.opencart.com/,252,0,0
+1656248308925,263,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,259,0,0
+1656248308921,267,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,265,0,0
+1656248308950,239,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,339,1,4,https://demo.opencart.com/index.php,236,0,0
+1656248309186,228,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,227,0,0
+1656248309190,260,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,254,0,0
+1656248309188,262,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,257,0,0
+1656248309188,263,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,258,0,0
+1656248309451,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248309414,177,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26308,412,1,4,https://demo.opencart.com/index.php,167,0,0
+1656248309450,192,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,192,0,0
+1656248309451,241,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,235,0,0
+1656248309451,244,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,239,0,0
+1656248309591,149,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,143,0,0
+1656248309643,174,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,338,1,4,https://demo.opencart.com/index.php,169,0,0
+1656248309695,221,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,216,0,0
+1656248309916,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248309692,254,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,249,0,0
+1656248309740,227,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,224,0,0
+1656248309817,157,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,152,0,0
+1656248309916,164,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,303,1,4,https://demo.opencart.com/index.php,159,0,0
+1656248309947,220,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,208,0,0
+1656248309974,235,GetLoginPage,200,OK,LoginThreadGroup 2-1,text,true,,18423,166,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,234,0,0
+1656248309967,242,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,237,0,0
+1656248310081,146,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26308,122,1,4,https://demo.opencart.com/,138,0,0
+1656248310228,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248310167,184,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,288,1,4,https://demo.opencart.com/index.php,179,0,0
+1656248310209,235,GetMainPage,200,OK,RegisterThreadGroup 1-1,text,true,,26300,122,1,4,https://demo.opencart.com/,230,0,0
+1656248310209,251,PostLogin,200,OK,LoginThreadGroup 2-1,text,true,,26300,344,1,4,https://demo.opencart.com/index.php,246,0,0
+1656248310228,236,PostAddToCart,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,303,1,4,https://demo.opencart.com/index.php,232,0,0
+1656248310352,143,GetMainPage,200,OK,WishlistThreadGroup 4-1,text,true,,26300,122,1,4,https://demo.opencart.com/,137,0,0
+1656248310445,184,GetRegisterPage,200,OK,RegisterThreadGroup 1-1,text,true,,22405,169,1,4,https://demo.opencart.com/index.php?route=account/register&language=en-gb,181,0,0
+1656248310464,260,GetMainPage,200,OK,AddToCartThreadGroup 3-1,text,true,,26300,122,1,4,https://demo.opencart.com/,256,0,0
+1656248310725,0,GetProduct,Non HTTP response code: java.net.URISyntaxException,Non HTTP response message: Illegal character in query at index 63: https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,AddToCartThreadGroup 3-1,text,false,,1177,0,1,4,https://demo.opencart.com/index.php?language=en-gb&product_id=${id}&route=product/product,0,0,0
+1656248310460,267,GetMainPage,200,OK,LoginThreadGroup 2-1,text,true,,26300,122,1,4,https://demo.opencart.com/,261,0,0
+1656248310495,235,PostAddToWishlist,200,OK,WishlistThreadGroup 4-1,text,true,,26300,287,1,4,https://demo.opencart.com/index.php,230,0,0
+1656248310629,139,PostRegister,200,OK,RegisterThreadGroup 1-1,text,true,,26300,412,1,4,https://demo.opencart.com/index.php,134,0,0
+1656248310768,67,GetMainPage,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,RegisterThreadGroup 1-1,text,false,,2980,0,1,4,https://demo.opencart.com/,0,0,0
+1656248310727,109,GetLoginPage,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,LoginThreadGroup 2-1,text,false,,2980,0,1,4,https://demo.opencart.com/index.php?route=account/login&language=en-gb,0,0,0
+1656248310725,112,PostAddToCart,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,AddToCartThreadGroup 3-1,text,false,,2980,0,1,4,https://demo.opencart.com/index.php,0,0,0
+1656248310730,108,GetMainPage,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,WishlistThreadGroup 4-1,text,false,,2980,0,1,1,https://demo.opencart.com/,0,0,0

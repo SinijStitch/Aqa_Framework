@@ -2,6 +2,7 @@ package ui;
 
 import bo.SauceBO;
 import factory.BrowserFactory;
+import hibernate.HibernateService;
 import listener.AllureListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -17,11 +18,7 @@ public class LoginTC {
 
     @DataProvider
     public Object[][] loginDP() {
-        return new Object[][]{
-                {"2123", "123"},
-                {"233", "13"},
-                {"standard_user", "secret_sauce"}
-        };
+       return HibernateService.getLoginTestData();
     }
 
     @BeforeClass

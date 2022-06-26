@@ -2,6 +2,7 @@ package ui;
 
 import bo.SauceBO;
 import factory.BrowserFactory;
+import hibernate.HibernateService;
 import listener.AllureListener;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -17,10 +18,7 @@ public class PriceTC {
 
     @DataProvider
     public Object[][] priceDP() {
-        return new Object[][]{
-                {"Sauce Labs Backpack", "$29.99"},
-                {"Sauce Labs Onesie", "$8.99"}
-        };
+        return HibernateService.getPriceData();
     }
 
     @BeforeClass
