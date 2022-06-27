@@ -9,6 +9,8 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 import tools.Browsers;
 
+import java.io.IOException;
+
 @Listeners({AllureListener.class})
 public class LoginTC {
 
@@ -22,8 +24,8 @@ public class LoginTC {
     }
 
     @BeforeClass
-    public void init() {
-        this.driver = BrowserFactory.getDriver(Browsers.CHROME);
+    public void init() throws IOException {
+        this.driver = BrowserFactory.getDriver();
         this.sauceBO = new SauceBO(driver);
     }
 
